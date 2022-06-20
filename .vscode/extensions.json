@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dtoplak.vscode-glsllint",
+    "eg2.vscode-npm-script",
+    "slevesque.shader",
+    "standard.vscode-standard",
+    "wix.vscode-import-cost",
+    "yzhang.markdown-all-in-one"
+  ]
+}

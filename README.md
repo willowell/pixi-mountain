@@ -1,54 +1,61 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# Pixi Mountain - PixiJS Starter powered by Gatsby ⚡️
 
-## 🚀 Quick start
+***WILL YOU SCALE THE MOUNTAIN?***
 
-1.  **Create a Gatsby site.**
+![The Rainbow Triangle of Enlightenment](/docs/assets/triangle-of-enlightenment.png "Triangle of Enlightenment")
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+This starter forms a modern foundation for a combined PixiJS and Nuxt project, featuring:
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+* Gatsby
+* TypeScript 4.5+
+* PixiJS 6+
+* A WebGL example on the index page with the shaders handled as separate files.
 
-2.  **Start developing.**
+## Setup
 
-    Navigate into your new site’s directory and start it up.
+Make sure to install the dependencies:
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```bash
+# yarn
+yarn install
 
-3.  **Open the code and start customizing!**
+# npm
+npm install
 
-    Your site is now running at http://localhost:8000!
+# pnpm
+pnpm install --shamefully-hoist
+```
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+## Development Server
 
-4.  **Learn more**
+Start the development server on http://localhost:3000
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+```bash
+# yarn
+yarn dev
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+# npm
+npm run dev
+```
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## Production
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+Build the application for production:
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+```bash
+# yarn
+yarn build
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+# npm
+npm run build
+```
 
-## 🚀 Quick start (Gatsby Cloud)
+Locally preview production build:
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+```bash
+# yarn
+yarn preview
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+# npm
+npm run preview
+```
